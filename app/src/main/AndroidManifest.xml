@@ -3,14 +3,22 @@
     package="com.btinternet.jackbaxter007.hydra">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppLoadTheme">
+        <activity android:name=".Model.DOTA2.DOTA2Account" />
+        <activity android:name=".Model.DOTA2.DOTA2Activity" />
+        <activity android:name=".Model.GW2.GW2Character" />
+        <activity android:name=".Model.GW2.GW2Account" />
+        <activity android:name=".Model.GW2.GW2Activity" />
+        <activity android:name=".GameSelection" />
+        <activity android:name=".MainActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

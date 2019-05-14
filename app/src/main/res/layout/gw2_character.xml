@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gw2Primary">
+
+    <ImageView
+        android:id="@+id/gw2titleimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/gw2title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gw2NameImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2titleimage"
+        app:srcCompat="@drawable/gw2name" />
+
+    <TextView
+        android:id="@+id/gw2Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Khunie"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2NameImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2NameImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2NameImage" />
+
+    <ImageView
+        android:id="@+id/gw2RaceImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2NameImage"
+        app:srcCompat="@drawable/gw2race" />
+
+    <TextView
+        android:id="@+id/gw2Race"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Human"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2RaceImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2RaceImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2RaceImage" />
+
+    <ImageView
+        android:id="@+id/gw2GenderImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/gw2ProfessionImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2RaceImage"
+        app:srcCompat="@drawable/gw2gender" />
+
+    <TextView
+        android:id="@+id/gw2Gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Female"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2GenderImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2GenderImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2GenderImage" />
+
+    <ImageView
+        android:id="@+id/gw2ProfessionImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2GenderImage"
+        app:srcCompat="@drawable/gw2profession" />
+
+    <TextView
+        android:id="@+id/gw2Profession"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Engineer"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2ProfessionImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2ProfessionImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2ProfessionImage" />
+
+    <ImageView
+        android:id="@+id/gw2LevelImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2ProfessionImage"
+        app:srcCompat="@drawable/gw2level" />
+
+    <TextView
+        android:id="@+id/gw2Level"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="80"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2LevelImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2LevelImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2LevelImage" />
+
+    <ImageView
+        android:id="@+id/gw2CraftingImage"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gw2LevelImage"
+        app:srcCompat="@drawable/gw2crafting" />
+
+    <TextView
+        android:id="@+id/gw2Crafting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Chef: 500 Artificer: 500"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toRightOf="@id/gw2CraftingImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gw2CraftingImage" />
+
+
+
+</android.support.constraint.ConstraintLayout>

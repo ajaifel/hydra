@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2TitleImage"
-        app:srcCompat="@drawable/gw2name" />
+        app:srcCompat="@drawable/d2name" />
 
     <TextView
         android:id="@+id/dota2Name"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2NameImage"
-        app:srcCompat="@drawable/gw2race" />
+        app:srcCompat="@drawable/d2crank" />
 
     <TextView
         android:id="@+id/dota2CompRank"
@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2CompRankImage"
-        app:srcCompat="@drawable/gw2gender" />
+        app:srcCompat="@drawable/d2srank" />
 
     <TextView
         android:id="@+id/dota2SoloCompRank"
@@ -119,7 +119,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2SoloCompRankImage"
-        app:srcCompat="@drawable/gw2profession" />
+        app:srcCompat="@drawable/d2rank" />
 
     <TextView
         android:id="@+id/dota2Rank"
@@ -148,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2RankImage"
-        app:srcCompat="@drawable/gw2level" />
+        app:srcCompat="@drawable/d2mmr" />
 
     <TextView
         android:id="@+id/dota2MMR"
@@ -177,7 +177,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2MMRImage"
-        app:srcCompat="@drawable/gw2age" />
+        app:srcCompat="@drawable/d2wl" />
 
     <TextView
         android:id="@+id/dota2WL"
@@ -206,7 +206,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2WLImage"
-        app:srcCompat="@drawable/gw2age" />
+        app:srcCompat="@drawable/d2wrate" />
 
     <TextView
         android:id="@+id/dota2WR"
@@ -227,15 +227,18 @@
         android:layout_width="100dp"
         android:layout_height="35dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dota2WRImage"
-        app:srcCompat="@drawable/gw2age" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/d2rwrate" />
 
     <TextView
         android:id="@+id/dota2WRCurrent"

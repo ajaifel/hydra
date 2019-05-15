@@ -83,6 +83,7 @@ public class DOTA2Activity extends AppCompatActivity {
                                             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                                                 Intent intent = new Intent(DOTA2Activity.this, DOTA2Account.class);
                                                 intent.putExtra("accID", accountSearch[i].getAccount_id());
+                                                intent.putExtra("accName", accountSearch[i].getPersonaname());
                                                 DOTA2Activity.this.startActivity(intent);
                                             }
                                         });

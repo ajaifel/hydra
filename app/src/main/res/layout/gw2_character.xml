@@ -37,7 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="Khunie"
+        android:text="Name"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
@@ -66,7 +66,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="Human"
+        android:text="Race"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
@@ -97,7 +97,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="Female"
+        android:text="Gender"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
@@ -126,7 +126,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="Engineer"
+        android:text="Profession"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
@@ -155,7 +155,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="80"
+        android:text="Level"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
@@ -165,7 +165,7 @@
         app:layout_constraintTop_toTopOf="@+id/gw2LevelImage" />
 
     <ImageView
-        android:id="@+id/gw2CraftingImage"
+        android:id="@+id/gw2AgeImage"
         android:layout_width="100dp"
         android:layout_height="35dp"
         android:layout_marginStart="32dp"
@@ -177,20 +177,21 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gw2LevelImage"
-        app:srcCompat="@drawable/gw2crafting" />
+        app:srcCompat="@drawable/gw2age" />
 
     <TextView
-        android:id="@+id/gw2Crafting"
+        android:id="@+id/gw2Age"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:text="Chef: 500 Artificer: 500"
+        android:text="Age"
         android:textColor="#000000"
         android:textColorHighlight="@color/colorAccent"
         android:textSize="30dp"
-        app:layout_constraintLeft_toRightOf="@id/gw2CraftingImage"
+        app:layout_constraintBottom_toBottomOf="@+id/gw2AgeImage"
+        app:layout_constraintLeft_toRightOf="@id/gw2AgeImage"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/gw2CraftingImage" />
+        app:layout_constraintTop_toTopOf="@+id/gw2AgeImage" />
 
 
 

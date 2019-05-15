@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.btinternet.jackbaxter007.hydra.R;
@@ -25,7 +24,7 @@ public class GW2Activity extends AppCompatActivity {
                 {
                     public void onClick(View view)
                     {
-                        EditText edit = (EditText)findViewById(R.id.APIkeyInput);
+                        EditText edit = (EditText)findViewById(R.id.DOTA2SearchInput);
                         String result = edit.getText().toString();
                         if (result.length() != 72){
                             Toast.makeText(getApplicationContext(),"API Key incorrect, make sure you've included the -'s",Toast.LENGTH_LONG).show();

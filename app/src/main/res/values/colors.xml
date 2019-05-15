@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorBase">#212A24</color>
     <color name="gw2Primary">#FFFFFF</color>
+    <color name="dota2Primary">#000000</color>
 </resources>

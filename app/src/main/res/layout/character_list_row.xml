@@ -13,5 +13,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text=""
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        android:autoSizeTextType="uniform"/>
 </LinearLayout>

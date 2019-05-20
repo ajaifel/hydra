@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_gamehydra"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_gamehydra_round"
         android:supportsRtl="true"
         android:theme="@style/AppLoadTheme">
         <activity android:name=".Model.DOTA2.DOTA2Account" />
